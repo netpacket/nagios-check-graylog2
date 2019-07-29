@@ -59,7 +59,7 @@ func perf(elapsed, total, inputs, tput, index float64) {
 
 // handle args
 func init() {
-	link = flag.String("l", "http://localhost:12900", "Graylog API URL")
+	link = flag.String("H", "http://localhost:12900", "Graylog API URL")
 	user = flag.String("u", "", "API username")
 	pass = flag.String("p", "", "API password")
 	ssl = flag.Bool("insecure", false, "Accept insecure SSL/TLS certificates. (optional)")
